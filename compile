@@ -1,0 +1,10 @@
+#! /bin/bash
+
+app=${1:-exercise1}
+
+export M2_HOME=$HOME/Software/apache-maven-3.9.9
+export M2=$M2_HOME/bin
+export PATH=$M2:$PATH
+
+mvn compile
+
