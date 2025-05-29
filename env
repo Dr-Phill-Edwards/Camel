@@ -1,0 +1,4 @@
+export JAVA_HOME=$(/usr/libexec/java_home)
+export M2_HOME=$HOME/apache-maven-3.9.9
+export M2=$M2_HOME/bin
+export PATH=$JAVA_HOME/bin:$M2:$PATH
